@@ -1,0 +1,51 @@
+{#
+/**
+ * @file display a single page.
+ */
+#}
+<div class="layout-max">
+
+  <header role="banner" class="spacer--vertical">
+    {{ page.header }}
+  </header>
+
+  {{ page.menu }}
+
+  {% if page.featured %}
+  <div class="featured">
+    {{ page.featured }}
+  </div>
+  {% endif %}
+
+  <main role="main">
+    <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+
+    <div class="spacer--bottom">
+      {% if not node %}
+        <h1>{{ title }}</h1>
+      {% endif %}
+
+      {{ page.content }}
+    </div>{# /.l-content #}
+
+    {% if page.content_secondary %}
+    <div class="l-content">
+      {{ page.content_secondary }}
+    </div>
+    {% endif %}
+
+    {% if page.content_tertiary %}
+    <div class="l-content">
+      {{ page.content_tertiary }}
+    </div>
+    {% endif %}
+
+  </main>
+
+  {% if page.footer %}
+    <footer role="contentinfo">
+      {{ page.footer }}
+    </footer>
+  {% endif %}
+
+</div>{# /.l-container #}
