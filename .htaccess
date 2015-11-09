@@ -138,6 +138,8 @@ AddEncoding gzip svgz
   # RewriteBase /
 
   # Couple of redirects.
+  RewriteCond %{REQUEST_URI} =/adelaide
+  RewriteRule ^ http://www.meetup.com/Adelaide-Drupal/events/226645659/ [L,R=301]
   RewriteCond %{REQUEST_URI} =/perth
   RewriteRule ^ http://www.meetup.com/drupalwa/events/226642744/ [L,R=301]
   RewriteCond %{REQUEST_URI} =/sydney
