@@ -137,6 +137,10 @@ AddEncoding gzip svgz
   # uncomment the following line:
   # RewriteBase /
 
+  # Couple of a redirects.
+  RewriteCond %{REQUEST_URI} =/perth
+  RewriteRule ^ http://www.meetup.com/drupalwa/events/226642744/ [L,R=301]
+
   # Redirect common PHP files to their new locations.
   RewriteCond %{REQUEST_URI} ^(.*)?/(install.php) [OR]
   RewriteCond %{REQUEST_URI} ^(.*)?/(rebuild.php)
