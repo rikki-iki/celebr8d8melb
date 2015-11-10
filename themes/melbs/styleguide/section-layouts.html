@@ -51,8 +51,14 @@
         </a>
         <ul class="kss-nav__menu-child">
             <li class="kss-nav__menu-item">
-              <a href="section-layouts.html#kssref-layouts-layout-max">
+              <a href="section-layouts.html#kssref-layouts-four-column">
                 <span class="kss-nav__ref">4.1</span
+                ><span class="kss-nav__name">Layout Four Columns</span>
+              </a>
+            </li>
+            <li class="kss-nav__menu-item">
+              <a href="section-layouts.html#kssref-layouts-layout-max">
+                <span class="kss-nav__ref">4.2</span
                 ><span class="kss-nav__name">Layout Max</span>
               </a>
             </li>
@@ -95,13 +101,69 @@ and are not documented.</p>
 
 
       </div>
+      <section id="kssref-layouts-four-column" class="kss-section kss-section--depth-2">
+
+    <div class="kss-style">
+      <h2 class="kss-title kss-title--level-2">
+        <a class="kss-title__permalink" href="#kssref-layouts-four-column">
+          <span class="kss-title__ref">
+              4.1
+            <span class="kss-title__permalink-hash">
+                #layouts.four-column
+            </span>
+          </span>
+          Layout Four Columns
+        </a>
+      </h2>
+
+
+      <div class="kss-description">
+        <p>A four column grid on large screens, that collapses into two column on
+medium screens and one column on small screens.
+.layout-row div is only needed to isolate grid items from other siblings.</p>
+
+      </div>
+    </div>
+
+      <div class="kss-modifier__wrapper">
+        <div class="kss-modifier__heading kss-style">
+          Example
+        </div>
+        <div class="kss-modifier__example">
+          <div class="layout-four-column">
+  <h4>Four column grid</h4>
+  <div class="layout-row">
+    <div class="layout-four-column__item" data-kss="lorem-ipsum"></div>
+    <div class="layout-four-column__item" data-kss="lorem-ipsum"></div>
+    <div class="layout-four-column__item" data-kss="lorem-ipsum"></div>
+    <div class="layout-four-column__item" data-kss="lorem-ipsum"></div>
+  </div>
+</div>
+
+        </div>
+      </div>
+
+      <div class="kss-markup kss-style">
+        <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;div class=&quot;layout-four-column&quot;&gt;
+  &lt;h4&gt;Four column grid&lt;/h4&gt;
+  &lt;div class=&quot;layout-row&quot;&gt;
+    &lt;div class=&quot;layout-four-column__item&quot; data-kss=&quot;lorem-ipsum&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;layout-four-column__item&quot; data-kss=&quot;lorem-ipsum&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;layout-four-column__item&quot; data-kss=&quot;lorem-ipsum&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;layout-four-column__item&quot; data-kss=&quot;lorem-ipsum&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+      </div>
+
+      </section>
       <section id="kssref-layouts-layout-max" class="kss-section kss-section--depth-2">
 
     <div class="kss-style">
       <h2 class="kss-title kss-title--level-2">
         <a class="kss-title__permalink" href="#kssref-layouts-layout-max">
           <span class="kss-title__ref">
-              4.1
+              4.2
             <span class="kss-title__permalink-hash">
                 #layouts.layout-max
             </span>

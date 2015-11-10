@@ -50,7 +50,7 @@
 html {
   @include define-type-sizing();
   font-family: $body-font; /* 1 */
-  font-weight: weight(light);
+  font-weight: weight(normal);
   // scss-lint:disable VendorPrefix
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */

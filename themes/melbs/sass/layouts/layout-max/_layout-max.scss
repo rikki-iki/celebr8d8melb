@@ -16,4 +16,9 @@
   @include breakpoint($medium) {
     padding: 0;
   }
+
+  &--medium {
+    @extend %layout-max;
+    max-width: $medium;
+  }
 }

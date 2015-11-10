@@ -3,7 +3,7 @@ base:
   css:
     theme:
       css/style.css: {}
-      https://fonts.googleapis.com/css?family=Montserrat|Roboto:300,500,700: {}
+      https://fonts.googleapis.com/css?family=PT+Sans:400,700: {}
   js:
     js/script.js: {}
   dependencies:
