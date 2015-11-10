@@ -1,0 +1,11 @@
+type: module
+name: Token Test
+description: Testing module for token functionality.
+package: Testing
+core: 8.x
+hidden: TRUE
+
+# Information added by drush on 2015-11-10
+version: '8.x-1.x-dev'
+project: 'token'
+datestamp: 1447111379
