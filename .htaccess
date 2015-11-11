@@ -19,7 +19,7 @@ Options -Indexes
 Options +FollowSymLinks
 
 # Set the default handler.
-DirectoryIndex index.php index.html index.htm
+DirectoryIndex index.html index.php index.htm
 
 # Add correct encoding for SVGZ.
 AddType image/svg+xml svg svgz
