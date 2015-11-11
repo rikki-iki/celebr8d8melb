@@ -68,7 +68,7 @@ p {
   margin-left: 10px;
   padding: 12px 30px;
   border-radius: 4px;
-  background-color: #2e9dff;
+  background-color: #2BA9E0;
   -webkit-transition: background-color 300ms ease;
   transition: background-color 300ms ease;
   color: white;
@@ -81,7 +81,7 @@ p {
   text-transform: uppercase;
 }
 .button:hover {
-  background-color: #2e9dff;
+  background-color: #2BA9E0;
 }
 .button.w--current {
   background-color: #2e80b6;
@@ -109,7 +109,7 @@ p {
   color: #676770;
 }
 .navigation-link:hover {
-  color: #2e9dff;
+  color: #2BA9E0;
 }
 .navigation-bar {
   background-color: white;
@@ -178,7 +178,7 @@ p {
 }
 .hero-subheading {
   margin-bottom: 40px;
-  color: #2e9dff;
+  color: #2BA9E0;
   font-size: 25px;
   line-height: 25px;
   font-weight: 300;
@@ -205,8 +205,8 @@ p {
   text-transform: uppercase;
 }
 .hollow-button:hover {
-  border-color: #2e9dff;
-  color: #2e9dff;
+  border-color: #2BA9E0;
+  color: #2BA9E0;
 }
 .hollow-button.all-caps {
   text-transform: uppercase;
@@ -276,8 +276,8 @@ p {
   padding: 20px;
   border: 10px solid white;
   border-radius: 50%;
-  background-color: #2e9dff;
-  box-shadow: #2e9dff 0px 0px 0px 1px;
+  background-color: #2BA9E0;
+  box-shadow: #2BA9E0 0px 0px 0px 1px;
   color: white;
 }
 .info-icon {
