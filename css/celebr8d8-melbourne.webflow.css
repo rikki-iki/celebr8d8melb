@@ -81,7 +81,7 @@ p {
   text-transform: uppercase;
 }
 .button:hover {
-  background-color: #2BA9E0;
+  background-color: #0076AD;
 }
 .button.w--current {
   background-color: #2e80b6;
