@@ -146,12 +146,16 @@ AddEncoding gzip svgz
   RewriteRule ^ http://www.meetup.com/Drupal-Brisbane/events/226692660/ [L,R=301]
   RewriteCond %{REQUEST_URI} =/canberra
   RewriteRule ^ http://www.meetup.com/DrupalACT/events/226695245/ [L,R=301]
+  RewriteCond %{REQUEST_URI} =/darwin
+  RewriteRule ^ https://groups.drupal.org/node/490278 [L,R=301]
   RewriteCond %{REQUEST_URI} =/goldcoast
   RewriteRule ^ http://www.meetup.com/drupalgoldcoast/events/226672396/ [L,R=301]
   RewriteCond %{REQUEST_URI} =/perth
   RewriteRule ^ http://www.meetup.com/drupalwa/events/226642744/ [L,R=301]
   RewriteCond %{REQUEST_URI} =/sydney
   RewriteRule ^ http://www.meetup.com/drupalsydney/events/226089455/ [L,R=301]
+  RewriteCond %{REQUEST_URI} =/wellington
+  RewriteRule ^ http://www.meetup.com/Wellington-Drupal-Meetup/events/226716637/ [L,R=301]
 
   # Redirect common PHP files to their new locations.
   RewriteCond %{REQUEST_URI} ^(.*)?/(install.php) [OR]
