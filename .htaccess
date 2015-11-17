@@ -150,6 +150,8 @@ AddEncoding gzip svgz
   RewriteRule ^ https://groups.drupal.org/node/490278 [L,R=301]
   RewriteCond %{REQUEST_URI} =/goldcoast
   RewriteRule ^ http://www.meetup.com/drupalgoldcoast/events/226672396/ [L,R=301]
+  RewriteCond %{REQUEST_URI} =/melbourne
+  RewriteRule ^ http://www.meetup.com/drupalmelbourne/events/226643822/ [L,R=301]
   RewriteCond %{REQUEST_URI} =/perth
   RewriteRule ^ http://www.meetup.com/drupalwa/events/226642744/ [L,R=301]
   RewriteCond %{REQUEST_URI} =/sydney
